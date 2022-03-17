@@ -1,0 +1,12 @@
+var a=5;
+var b="5";
+var c=10;
+document.write("Values of variables: a = 5, b = '5';, and c = 10.");
+document.write("<br />");
+document.write("Value of a is equal to b (not strict): "+ (a == b));
+document.write("<br />");
+document.write("Value of a is strictly equal to b: " + (a === b));
+document.write("<br />");
+document.write("Value of a is not equal to c (not strict) " + (a != c));
+document.write("<br />");
+document.write("Value of a plus b :" + (a + b));

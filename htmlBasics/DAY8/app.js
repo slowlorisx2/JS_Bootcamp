@@ -29,14 +29,17 @@
 //     return myProduct;
 // }
 
-function phraseGenerator(){
-    let part1 = '"If a man has not discovered something that he will die for';
-    let part2 = ', he isn\'t fit to live."';
-    let combinedParts = part1 + part2;
-    return combinedParts;
-}
+// Lab 3
 
-function phraseAddAuthor(){
-    let addAuthor = phraseGenerator() + " Martin Luther King Jr.";
-    return alert(addAuthor);
-}
+// function phraseGenerator(){
+//     let part1 = '"If a man has not discovered something that he will die for';
+//     let part2 = ', he isn\'t fit to live."';
+//     let combinedParts = part1 + part2;
+//     return combinedParts;
+// }
+
+// function phraseAddAuthor(){
+//     let addAuthor = phraseGenerator() + " Martin Luther King Jr.";
+//     return alert(addAuthor);
+// }
+

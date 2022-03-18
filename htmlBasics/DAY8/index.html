@@ -8,9 +8,14 @@
     <link rel="stylesheet" href="./master.css">
 </head>
 <body>
-    <div class="div_form">
+    <form name="form1">
+        <h2>Welcome to the multiplication machine:</h2>
+        Multiply <input type="text" name="input1"> by <input type="text" name="input2">
+        <input type="button" value="Result" onclick="alert('The result is ' + returnValue() + '.');">
+    </form>
+    
+    <br><button onclick="phraseAddAuthor()" class="return-button" type="button">Phrase Genrator!</button>
 
-    </div>
     <script src="./app.js"></script>
 </body>
 </html>

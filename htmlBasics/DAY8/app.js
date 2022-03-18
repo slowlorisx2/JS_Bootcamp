@@ -10,15 +10,33 @@
 
 // showName(fName, lName);
 
-var userName;
+// var userName;
 
-function showName(){
-    getName();
-    alert("Hello " + userName);
+// function showName(){
+//     getName();
+//     alert("Hello " + userName);
+// }
+
+// function getName(){
+//     userName = prompt("Enter your username");
+// }
+
+// showName();
+
+// function returnValue(){
+//     var myProduct;
+//     myProduct = document.form1.input1.value * document.form1.input2.value;
+//     return myProduct;
+// }
+
+function phraseGenerator(){
+    let part1 = '"If a man has not discovered something that he will die for';
+    let part2 = ', he isn\'t fit to live."';
+    let combinedParts = part1 + part2;
+    return combinedParts;
 }
 
-function getName(){
-    userName = prompt("Enter your username");
+function phraseAddAuthor(){
+    let addAuthor = phraseGenerator() + " Martin Luther King Jr.";
+    return alert(addAuthor);
 }
-
-showName();

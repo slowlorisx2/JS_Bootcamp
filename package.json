@@ -1,0 +1,22 @@
+{
+  "name": "js_bootcamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slowlorisx2/JS_Bootcamp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slowlorisx2/JS_Bootcamp/issues"
+  },
+  "homepage": "https://github.com/slowlorisx2/JS_Bootcamp#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}

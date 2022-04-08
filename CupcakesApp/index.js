@@ -1,12 +1,12 @@
 // All cupcakes have these ingredients
-const BUTTER = null;
-const SUGAR = null;
-const EGG = null;
-const FLOUR = null;
-const VANILLA_ING = null;
-const SALT = null;
-const BAKINGPOWDER = null;
+//Cupcake Class with all shared ingredients for all cupcakes flavors
 
-//Cupcakes flavors to make
-
-
+class CupcakeIngr{
+    BUTTER = null;
+    SUGAR = null;
+    EGG = null;
+    FLOUR = null;
+    VANILLA_ING = null;
+    SALT = null;
+    BAKINGPOWDER = null;
+}

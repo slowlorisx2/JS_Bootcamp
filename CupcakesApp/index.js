@@ -1,18 +1,25 @@
 // All cupcakes have these ingredients
 //Cupcake Class with all shared ingredients for all cupcakes flavors
 
-class CupcakeIngr{
-    BUTTER = null;
-    SUGAR = null;
-    EGG = null;
-    FLOUR = null;
-    VANILLA_ING = null;
-    SALT = null;
-    BAKINGPOWDER = null;
-}
+
+const BUTTER = 5.2;
+const SUGAR = 2.6;
+const EGG = 1;
+const FLOUR = 1.1;
+const VANILLA_ING = 3;
+const SALT = 5;
+const BAKINGPOWDER = 5;
+
 
 const submitBtn = document.getElementById("resultBtn");
 const resultP = document.getElementById("resultP");
+var numOfDozens = document.getElementById("dozensAmount").value;
 
 
-submitBtn.onclick(resultP.innerHTML = "Hello world");
+function printIngredients(){
+    var numOfDozens = document.getElementById("dozensAmount").value;
+    
+    var result = `Butter: ${BUTTER*numOfDozens} <br> Sugar: ${SUGAR*numOfDozens} <br> Flour: ${FLOUR*numOfDozens}<br>
+                  Egg:`;
+    resultP.innerHTML = result;
+}

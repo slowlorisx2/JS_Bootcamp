@@ -10,3 +10,9 @@ class CupcakeIngr{
     SALT = null;
     BAKINGPOWDER = null;
 }
+
+const submitBtn = document.getElementById("resultBtn");
+const resultP = document.getElementById("resultP");
+
+
+submitBtn.onclick(resultP.innerHTML = "Hello world");

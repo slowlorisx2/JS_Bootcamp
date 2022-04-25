@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Employee Database</title>
+</head>
+<body>
+    <h3>Employee Database</h3>
+    <label for="selEmployee">Employees List: </label><br>
+    <select name="selEmployee" id="selEmployee" onchange="showEmployee.call(employees[this.selectedIndex]); this.selectedIndex = 0;">
+        <option id="emp0" value=""></option>
+        <option id="emp1" value=""></option>
+        <option id="emp2" value=""></option>
+        <option id="emp3" value=""></option>
+    </select> <br> <br>
+    <button id="button">All Employees</button>
+    
+    <script src="./main.js"></script>
+</body>
+</html>

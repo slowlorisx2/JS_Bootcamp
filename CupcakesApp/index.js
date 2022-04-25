@@ -1,14 +1,19 @@
 // All cupcakes have these ingredients
 //Cupcake Class with all shared ingredients for all cupcakes flavors
 
-
+// These ingredients are for 16 cupcakes
 const BUTTER = 5.2;
 const SUGAR = 2.6;
 const EGG = 1;
+const VANILLA_EXTRACT = 3;
 const FLOUR = 1.1;
-const VANILLA_ING = 3;
 const SALT = 5;
 const BAKINGPOWDER = 5;
+const WATER = 1;
+const BUTTER_MILK = 1;
+
+// For Chocolate
+const BAKING_COCOA = 1;
 
 
 const submitBtn = document.getElementById("resultBtn");
@@ -23,3 +28,5 @@ function printIngredients(){
                   Egg:`;
     resultP.innerHTML = result;
 }
+
+ 

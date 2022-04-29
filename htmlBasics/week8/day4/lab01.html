@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAb01</title>
+</head>
+<body>
+    <h3>CIW JavaScript Specialist</h3>
+        <hr />
+
+            <form id="myForm" name="myForm" action="validationexample.html">
+            <p>
+            Your Name: <br /><br />
+            <input type="text" id="Your_Name" name="Your_Name" value="enter your name" />
+            </p>
+            <p>
+            Interesting Fact About You: <br /><br />
+            <textarea id="Interesting_Fact" name="Interesting_Fact">enter some text</textarea>
+            </p>
+            <input type="button" value="Submit Data" onclick="return checkForm(this.form);" />
+            <input type="reset" value="Reset Form" >
+
+            </form>
+        <hr />
+        <div id="lblValues"></div>
+    <script src="./main.js"></script>
+</body>
+</html>

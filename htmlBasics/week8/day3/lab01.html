@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Questionary Form:</h2>
+    <form action="submited.html" name="personalData" method="post">
+        <fieldset>
+            <legend>Personal Information</legend>
+
+                <label for="">First Name: </label>
+                <input type="text" name="fName">
+                <label for="">Last Name: </label>
+                <input type="text" name="lName"> <br> <br>
+
+            <fieldset>
+                <label for="Gender">Select Gender</label> <br>
+                <input type="radio" name="Gender" id="male" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" name="Gender" id="female" value="female"> 
+                <label for="female">Female</label><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Let's change the page background and Text Color</legend>
+                <input type="color" id="colorPicker" name="colorPicker">
+                <label for="">Change the background color for the page </label>
+                <input type="button" onclick="setBackground();" name="colorValue" value="Change Now!"> <br>
+                <input type="color" id="colorPickerText" name="colorPickerText">
+                <label for="">Change the Text color for the page </label>
+                <input type="button" onclick="setTextColor();" name="colorValueText" value="Change Now!">
+              </fieldset> <br>
+            <button type="submit" name="submitBtn">Submit Form</button>  
+        </fieldset>
+
+    </form>
+
+    <script src="./main.js"></script>
+</body>
+</html>

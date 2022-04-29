@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="index.html" method="post" id="form1">
+        <fieldset>
+          <legend>Choose your favorite monster:</legend>
+  
+          <input type="radio" id="kraken" name="monster" required>
+          <label for="kraken">Kraken</label><br>
+  
+          <input type="radio" id="sasquatch" name="monster" required>
+          <label for="sasquatch">Sasquatch</label><br>
+  
+          <input type="radio" id="mothman" name="monster" required>
+          <label for="mothman">Mothman</label><br>
+  
+          <input type="radio" id="politicians" name="monster" required>
+          <label for="politicians">Politicians</label>
+        </fieldset>
+  
+        <fieldset>
+          <legend>How do you feel about JavaScript?</legend>
+          <input type="checkbox" id="check1" name="check1" value="Loves JS" required>
+          <label for="check1">Check this box if you love JavaScript. :)</label><br>
+          <input type="checkbox" id="check2" name="check2" value="Hates JS">
+          <label for="check2">Check this box if you hate JavaScript :( </label>
+        </fieldset>
+  
+        <input type="hidden" id="shhImHiding" name="hiddenInput" value="you can't see me!">
+  
+        <fieldset>
+          <legend>What is your favorite color?</legend>
+          <input type="color" id="colorPicker" name="colorPicker">
+        </fieldset>
+  
+        <fieldset>
+          <legend>Meme Uploading Machine</legend>
+          <label for="filePicker">Upload your favorite meme (.png file type only!).</label>
+          <input type="file" id="filePicker" name="filePicker" accept="image/png"><br>
+        </fieldset>
+  
+        <fieldset>
+          <legend>Help Me Steal Your Expensive Work Clothes</legend>
+          <label for="password">What's Your Luggage Combination?</label>
+          <input type="password" id="password" name="password" minlength="3" maxlength="6">
+        </fieldset>
+  
+        <fieldset>
+          <legend>How many?</legend>
+          <input type="range" id="range" name="range" min="129" max="3001"><br>
+          <label for="range">How many what!? And these numbers make no sense! This form sucks!</label>
+        </fieldset>
+  
+        <fieldset>
+          <legend>Creative Writing Lab</legend>
+          <label for="textarea">Please write a short story about a struggling toast salesman in no fewer than 7 characters and no more than 347,892.</label><br>
+          <textarea id="textarea" name="textarea" rows="5" cols="30" minlength="7" maxlength="347892"></textarea>
+        </fieldset>
+  
+        <fieldset>
+          <legend>Your Name, Please</legend>
+          <label for="namebox" id="namebox">What is your name?</label>
+          <input type="text" id="text" name="text" size="50" minlength="2" maxlength="50">
+        </fieldset>
+  
+        <fieldset>
+          <input type="reset" value="reset">
+          <input type="submit" value="submit">
+        </fieldset>
+  
+        <fieldset>
+        <legend>"About" Button</legend>
+          <input type="button" onclick="about(this.form);" value="About This Form">
+        </fieldset>
+  
+      </form>
+      <script src="./main.js"></script>
+</body>
+</html>
